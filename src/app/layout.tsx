@@ -1,16 +1,23 @@
+import "bootstrap/dist/css/bootstrap.css";
+
+import "bootstrap-icons/font/bootstrap-icons.css";
+
+import "glightbox/dist/css/glightbox.css";
+
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+//Custom components
+import TopBar from "./components/TopBar";
+import Header from "./components/Header";
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const playFair = Playfair_Display({
   subsets: ["latin"],
-});
+  display: 'swap',
+  variable: '--font-playfair-display',
+  weight: ['400', '500', '600', '700', '800', '900'],
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,7 +31,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <head>
+        {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossOrigin="anonymous"></script> */}
+      </head>
+      <body className={playFair.className}>
+        <TopBar />  
+        <Header />
         {children}
       </body>
     </html>
