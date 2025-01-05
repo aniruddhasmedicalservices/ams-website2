@@ -21,14 +21,15 @@ export default function TopBar() {
     <div 
     id="topbar"
     className={`d-flex align-items-center fixed-top ${scroll > 100 ? 'topbar-scrolled' : undefined}`}>
-        <div className="container d-flex justify-content-lg-center justify-content-md-between">
+        <div className="container d-flex justify-content flex-row-reverse justify-content-md-between">
             <div className="contact-info d-flex align-items-center">
                 <i className='bi bi-phone d-flex align-items-center'>
-                    <span>+91 750 650 1271</span>
+                    <span><a href="tel:+917506501271">+91 7506501271</a></span>
                 </i>
-                <i className='bi bi-mail d-flex align-items-center'>
+
+                {/* <i className='bi bi-media d-flex align-items-center'>
                     <span>abc@ams.co.in</span>
-                </i>
+                </i> */}
             </div>
         </div>
     </div>

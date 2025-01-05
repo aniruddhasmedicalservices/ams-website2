@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const blog = [
   {
     id: 1,
@@ -432,6 +434,18 @@ export const navs = [
     target: 'contact',
     active: false,
   },
+  {
+    id: 9,
+    name: 'Careers',
+    target: 'careers',
+    active: false,
+  },
+  {
+    id: 10,
+    name: 'Blog',
+    target: 'blog',
+    active: false,
+  },
 ];
 
 export const bookings = [
@@ -448,4 +462,37 @@ export const bookings = [
     velit esse cillum dolore eu fugiat nulla pariatur`,
     },
   },
+];
+
+export const ourservices = [
+  {
+    id: 1,
+    title: 'Web Development',
+    content: 'This is a company that builds websites, web apps and e-commerce solutions.',
+  },
+  {
+    id: 2,
+    title: 'Application Development',
+    content: 'This is a company that builds Application, mobile apps and e-commerce solutions.',
+  },
+  {
+    id: 3,
+    title: 'Data analysis',
+    content: 'This is a company that builds Data models, web apps and e-commerce solutions.',
+  },
+  {
+    id: 4,
+    title: 'Web Development',
+    content: 'This is a company that builds websites, web apps and e-commerce solutions.',
+  },
+  {
+    id: 5,
+    title: 'Application Development',
+    content: 'This is a company that builds Application, mobile apps and e-commerce solutions.',
+  },
+  {
+    id: 6,
+    title: 'Data analysis',
+    content: 'This is a company that builds Data models, web apps and e-commerce solutions.',
+  }
 ];

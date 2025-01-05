@@ -5,15 +5,24 @@ import {navs} from "../data/data"
 export default function Nav() {
     const [navList, setNavList] = useState(navs);
     const [open, setOpen] = useState(false);
-    const [scrolled, setScroll] = useState();
+    const [scroll, setScroll] = useState(0);
+
+    useEffect(() => {
+            window.addEventListener('scroll', () => {
+                setScroll(window.scrollY);
+            });
+            return () => {
+                window.removeEventListener('scroll', () => {
+                    setScroll(window.scrollY);
+                });
+            }
+        },[scroll]);
 
     const handleToggleMenu = () => {
         setOpen(!open);
     };
 
-    const handleScrollTo = (section: string) => {
-        
-    }
+    const handleScrollTo = (section: string) => {}
     
   return (
     <nav

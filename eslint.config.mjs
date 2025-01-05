@@ -13,6 +13,7 @@ const eslintConfig = [
   ...compat.config({
     extends: ['next'],
     rules: {
+      //Added rules to avoid unwanted errors due to incomplete code
       'react/no-unescaped-entities': 'off',
       '@next/next/no-page-custom-font': 'off',
     },

@@ -9,12 +9,12 @@
     top: -40px;
 }
 
-#topbar.contact-info i {
+#topbar .contact-info i {
     font-style: normal;
-    color: #d9ba85;
+    color: #000 !important;
 }
 
-#topbar.contact-info i span {
+#topbar .contact-info i span a{
     padding-left: 5px;
-    color: #fff;
+    color: #000 !important;
 }
