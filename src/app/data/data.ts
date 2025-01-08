@@ -485,14 +485,4 @@ export const ourservices = [
     title: 'Web Development',
     content: 'This is a company that builds websites, web apps and e-commerce solutions.',
   },
-  {
-    id: 5,
-    title: 'Application Development',
-    content: 'This is a company that builds Application, mobile apps and e-commerce solutions.',
-  },
-  {
-    id: 6,
-    title: 'Data analysis',
-    content: 'This is a company that builds Data models, web apps and e-commerce solutions.',
-  }
 ];

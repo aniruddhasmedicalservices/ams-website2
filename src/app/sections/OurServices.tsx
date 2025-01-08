@@ -15,14 +15,10 @@ export default async function OurServices() {
     <section id='our-services' className='our-services'>
       <div className='container'>
         <div className='row'>
-          <div className='slider'>
-            <div className='slide-track'>
-              {items && 
-              items.length > 0 && 
-              items.map((item: {id: number; title: string; content: string}) => (
-                < OurServicesCard key={item.id} item={item} /> ))}
-            </div>
-          </div>
+          {items && 
+          items.length > 0 && 
+          items.map((item: {id: number; title: string; content: string}) => (
+            < OurServicesCard key={item.id} item={item} /> ))}
         </div>
       </div>
     </section>
