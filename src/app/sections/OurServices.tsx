@@ -2,8 +2,10 @@ import React from 'react'
 import "./ourServices.css"
 import OurServicesCard from '../components/OurServicesCard'
 
+const BASE_URL = process.env.BASE_URL || '';
+
 async function getOurServices() {
-  const response = await fetch('http://localhost:3000/api/ourservices')
+  const response = await fetch(`${BASE_URL}/pages/api/ourservices`)
   const services = await response.json()
   return services
 }
