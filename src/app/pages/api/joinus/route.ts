@@ -1,5 +1,5 @@
 import { headers } from "next/headers";
-import { bookings } from "../../data/data";
+import { bookings } from "@/app/data/data";
 
 export async function GET() {
     return Response.json(bookings);
