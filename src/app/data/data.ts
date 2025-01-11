@@ -431,7 +431,7 @@ export const navs = [
   {
     id: 8,
     name: 'Contact',
-    target: 'contact',
+    target: 'footer',
     active: false,
   },
   {

@@ -22,7 +22,15 @@ export default function Nav() {
         setOpen(!open);
     };
 
-    const handleScrollTo = (section: string) => {}
+    const handleScrollTo = (section: string) => {
+        
+        const sectionElement = document.getElementById(section);
+        if (sectionElement) {
+            sectionElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
+    const handleActive = (section: string) => {}
     
   return (
     <nav
