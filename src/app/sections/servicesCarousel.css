@@ -10,18 +10,18 @@
 }
 
 .carousel-item img{
-    width: 90%;
-    height: 90%;
+    /* width: 100%; */
+    height: 500px;
     text-align: center;
 }
 
 .carousel-control-prev {
-    left: 56px;
+    left: 70px;
     background-color: #132c5d;
 }
 
 .carousel-control-next {
-    right: 56px;
+    right: 70px;
     background-color: #132c5d;
 }
 
