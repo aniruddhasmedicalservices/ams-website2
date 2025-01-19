@@ -26,7 +26,7 @@ export default function Header() {
     >
       <div className='container-fluid container-xl d-flex align-items-center justify-content-lg-between'>
         <div className='logo me-auto me-lg-0'>
-          <h1><a href="/">AMS</a></h1>
+          <a href="/"><img src="assets/images/logo.png" alt="ams logo" /><img src="assets/images/logo2.png" alt="ams logo" /></a>
           {/* Add logo here */}
         </div>
         <Nav />

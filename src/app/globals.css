@@ -1,7 +1,7 @@
 body {
-  font-family: 'Open Sans', sans-serif  !important;
+  font-family: 'Roboto', serif  !important;
   background: #f9f9f9;
-  color: black;
+  color: #132c5d;
 }
 
 a {
@@ -15,7 +15,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Sriracha', serif;
 }
 
 body::-webkit-scrollbar {

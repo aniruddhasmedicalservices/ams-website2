@@ -1,0 +1,49 @@
+.serviceCarousel {
+    width: 100%;
+    position: relative;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+
+.carousel-item img{
+    width: 90%;
+    height: 90%;
+    text-align: center;
+}
+
+.carousel-control-prev {
+    left: 56px;
+    background-color: #132c5d;
+}
+
+.carousel-control-next {
+    right: 56px;
+    background-color: #132c5d;
+}
+
+@media (max-width: 768px) {
+    .carousel-control-prev {
+        left: 0;
+    }
+    
+    .carousel-control-next {
+        right: 0;
+    }
+
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .carousel-inner {
+        height: 200px;
+        height: 25%;
+        text-align: center;
+    }
+}
+

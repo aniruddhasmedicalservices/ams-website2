@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Footer from "./sections/Footer";
+import ServiceCarousel from "./sections/ServicesCarousel";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <>
     <Hero />
     <main id="main">
+      <ServiceCarousel />
       <About />
       <Footer />
     </main>

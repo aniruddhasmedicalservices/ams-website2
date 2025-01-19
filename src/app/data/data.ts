@@ -486,3 +486,61 @@ export const ourservices = [
     content: 'This is a company that builds websites, web apps and e-commerce solutions.',
   },
 ];
+
+export const carouselphotos = [
+  {
+    "id": 1,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/01.png",
+  },
+  {
+    "id": 2,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/02.png",
+  },
+  {
+    "id": 3,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/03.png",
+  },
+  {
+    "id": 4,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/04.png",
+  },
+  {
+    "id": 5,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/05.png",
+  },
+  {
+    "id": 6,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/06.png",
+  },
+  {
+    "id": 7,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/07.png",
+  },
+  {
+    "id": 8,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/08.png",
+  },
+  {
+    "id": 9,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/09.png",
+  },
+  {
+    "id": 10,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/10.png",
+  },
+  {
+    "id": 11,
+    "title": "Photography",
+    "imageUrl": "assets/images/homepage/carousel/11.png",
+  },
+];
