@@ -22,14 +22,43 @@ export default function Header() {
   return (
     <header 
       id='header'
-      className={`fixed-top d-flex align-items-center ${scroll > 100 ? 'header-scrolled' : undefined}`}
+      className={`fixed-top d-flex flex-column ${scroll > 100 ? 'header-scrolled' : undefined}`}
     >
-      <div className='container-fluid container-xl d-flex align-items-center justify-content-lg-between'>
-        <div className='logo me-auto me-lg-0'>
-          <a href="/"><img src="assets/images/logo.png" alt="ams logo" /><img src="assets/images/logo2.png" alt="ams logo" /></a>
-          {/* Add logo here */}
+      <div className='container-fluid container-xl d-flex justify-content-around'>
+        <div className='logo'>
+          <img src="assets/images/logo.png" height={100} alt="ams logo" />
         </div>
-        <Nav />
+        <div className='logo'>
+          <img src="assets/images/logo2.png" height={100} alt="ams logo" />
+        </div>
+        <div className='logo'>
+          <img src="assets/images/bapu.png" height={100} alt="ams logo" />
+        </div>
+      </div>
+      <div className='container-fluid navbar'>
+        <div className='container-xl'>
+          <Nav />
+          <div className='d-flex flex-column'>
+            <p><a href="tel:+917506501271">Contact us: +91 7506501271</a></p>
+            <div className="d-flex mb-3">
+                <a href="">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a href="">
+                  <i className="fab fa-twitter"></i>
+                </a>
+                <a href="">
+                  <i className="fab fa-google"></i>
+                </a>
+                <a href="">
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a href="">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   )

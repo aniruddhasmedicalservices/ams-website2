@@ -1,6 +1,7 @@
 .serviceCarousel {
     width: 100%;
     position: relative;
+    padding-bottom: 20px;
 }
 
 .carousel-inner {
@@ -9,21 +10,36 @@
     text-align: center;
 }
 
+h2 {
+    font-weight: 700;
+    line-height: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
 .carousel-item img{
     /* width: 100%; */
     height: 500px;
     text-align: center;
 }
 
+.carousel-control-next,
 .carousel-control-prev {
-    left: 70px;
-    background-color: #132c5d;
+    font-size: 100px;
+    filter: invert(100%);
 }
 
-.carousel-control-next {
-    right: 70px;
-    background-color: #132c5d;
+.carousel-indicators {
+    margin-bottom: -2rem;
 }
+
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    filter: invert(100%);
+  }
 
 @media (max-width: 768px) {
     .carousel-control-prev {

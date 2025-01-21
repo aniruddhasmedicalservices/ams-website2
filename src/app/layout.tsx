@@ -42,10 +42,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+      <script src="https://kit.fontawesome.com/a0e9850775.js" crossOrigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" crossOrigin="anonymous"></script>
         {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossOrigin="anonymous"></script> */}
       </head>
       <body>
-        <TopBar />  
+        {/* <TopBar />   */}
         <Header />
         {children}
       </body>

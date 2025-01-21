@@ -4,6 +4,8 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Footer from "./sections/Footer";
 import ServiceCarousel from "./sections/ServicesCarousel";
+import JoinUs from "./sections/JoinUs";
+import TrustedBy from "./sections/TrustedBy";
 
 
 export default function Home() {
@@ -12,7 +14,8 @@ export default function Home() {
     <Hero />
     <main id="main">
       <ServiceCarousel />
-      <About />
+      <JoinUs />
+      <TrustedBy />
       <Footer />
     </main>
     </>

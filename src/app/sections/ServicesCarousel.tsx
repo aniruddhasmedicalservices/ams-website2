@@ -7,6 +7,9 @@ export default function ServicesCarousel() {
     <section>
         <div className='container' data-aos="fade-up">
             <div className="row">
+              <div>
+                <h2 className='text-center mb-3'>Our Services</h2>
+              </div>  
                 <div className='serviceCarousel'>
                     <Carousel />
                 </div>

@@ -2,11 +2,12 @@
 
 .navbar {
     padding: 0;
+    /* margin: 0 150px 0 0; */
+
 }
 
 .navbar ul {
     margin: 0;
-    padding: 0;
     list-style: none;
     display: flex;
     align-items: center;
@@ -22,7 +23,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 15px 10px 15px;
-    color: #132c5d;
+    color: #fff;
     white-space: nowrap;
     transition: 0.3s;
     font-size: 15px;
@@ -97,7 +98,7 @@
 /* Mobile navigation */
 
 .mobile-nav-toggle {
-    color: #132c5d;
+    color: #fff;
     font-size: 28px;
     cursor: pointer;
     display: none;
