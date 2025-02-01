@@ -514,3 +514,62 @@ export const carouselphotos = [
     "imageUrl": "assets/images/homepage/carousel/11.png",
   },
 ];
+
+export const ourPartnersImages = [
+  {
+    "id": 1,
+    "imageUrl": "assets/images/ourPartners/p1.png",
+  },
+  {
+    "id": 2,
+    "imageUrl": "assets/images/ourPartners/p2.png",
+  },
+  {
+    "id": 3,
+    "imageUrl": "assets/images/ourPartners/p3.png",
+  },
+  {
+    "id": 4,
+    "imageUrl": "assets/images/ourPartners/p4.png",
+  },
+  {
+    "id": 5,
+    "imageUrl": "assets/images/ourPartners/p5.png",
+  },
+  {
+    "id": 6,
+    "imageUrl": "assets/images/ourPartners/p6.png",
+  },
+  {
+    "id": 7,
+    "imageUrl": "assets/images/ourPartners/p7.png",
+  },
+  {
+    "id": 8,
+    "imageUrl": "assets/images/ourPartners/p8.png",
+  },
+  {
+    "id": 9,
+    "imageUrl": "assets/images/ourPartners/p9.png",
+  },
+  {
+    "id": 10,
+    "imageUrl": "assets/images/ourPartners/p10.png",
+  },
+  {
+    "id": 11,
+    "imageUrl": "assets/images/ourPartners/p11.png",
+  },
+  {
+    "id": 12,
+    "imageUrl": "assets/images/ourPartners/p1.png",
+  },
+  {
+    "id": 13,
+    "imageUrl": "assets/images/ourPartners/p2.png",
+  },
+  {
+    "id": 14,
+    "imageUrl": "assets/images/ourPartners/p3.png",
+  },
+];

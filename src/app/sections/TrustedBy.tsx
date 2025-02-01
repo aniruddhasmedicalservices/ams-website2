@@ -1,61 +1,28 @@
 import React from 'react'
-import './trustedBy.css'
+import "./trustedBy.css"
+import TrustedBy from '../components/OurServicesCard'
 
-export default function TrustedBy() {
+const BASE_URL = process.env.BASE_URL || '';
+
+async function getOurServices() {
+  const response = await fetch(`${BASE_URL}/pages/api/ourservices`)
+  const services = await response.json()
+  return services
+}
+
+export default async function OurServices() {
+  const items : [] = await getOurServices();
+
   return (
-    
-    <section className='container'>  
-        <div>
-        <div>
-          <h2 className='mb-3'>Trusted by</h2>
-        </div>
-            <div className="row slider">
-                <div className="slide-track">
-                    <div className="slide">
-                        <img src="assets\images\trustedBy\image (1).jpg" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-                    </div>
-                    <div className="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id='our-services' className='our-services'>
+      <div className='container'>
+        {/* <div className='row'>
+          {items && 
+          items.length > 0 && 
+          items.map((item: {id: number; title: string; content: string}) => (
+            < OurServicesCard key={item.id} item={item} /> ))}
+        </div> */}
+      </div>
     </section>
   )
 }

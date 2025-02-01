@@ -6,6 +6,8 @@ import Footer from "./sections/Footer";
 import ServiceCarousel from "./sections/ServicesCarousel";
 import JoinUs from "./sections/JoinUs";
 import TrustedBy from "./sections/TrustedBy";
+import OurPartners from "./sections/OurPartners"; 
+import OurServices from "./sections/TrustedBy";
 
 
 export default function Home() {
@@ -15,7 +17,7 @@ export default function Home() {
     <main id="main">
       <ServiceCarousel />
       <JoinUs />
-      <TrustedBy />
+      <OurPartners />
       <Footer />
     </main>
     </>

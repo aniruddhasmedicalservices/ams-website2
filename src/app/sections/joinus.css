@@ -1,8 +1,14 @@
 .joinusForm {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 50px;
+  padding: 20px;
   border: 1px solid #f0f0f0;
+  background-color: #132c5d;
+  margin: 0;
+}
+
+.joinusForm h2 a {
+
+  color: white;
 }
