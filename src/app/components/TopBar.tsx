@@ -22,14 +22,16 @@ export default function TopBar() {
     id="topbar"
     className={`d-flex align-items-center fixed-top ${scroll > 100 ? 'topbar-scrolled' : undefined}`}>
         <div className="container d-flex justify-content flex-row-reverse justify-content-md-between">
-            <div className="contact-info d-flex align-items-center">
-                <i className='bi bi-phone d-flex align-items-center'>
-                    <span><a href="tel:+917506501271">+91 7506501271</a></span>
-                </i>
-
-                {/* <i className='bi bi-media d-flex align-items-center'>
-                    <span>abc@ams.co.in</span>
-                </i> */}
+            <div className='container-fluid container-xl d-flex justify-content-around'>
+                <div className='logo'>
+                    <img src="assets/images/logo.png" height={100} alt="ams logo" />
+                </div>
+                <div className='logo'>
+                    <img src="assets/images/logo2.png" height={100} alt="ams logo" />
+                </div>
+                <div className='logo'>
+                    <img src="assets/images/bapu.png" height={100} alt="ams logo" />
+                </div>
             </div>
         </div>
     </div>

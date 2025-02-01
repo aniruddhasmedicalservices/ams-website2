@@ -4,10 +4,10 @@
     border-top: 1px solid rgb(19, 44, 93); */
     transition: all 0.5s;
     z-index: 997;
-    padding: 15px 0;
-    /* top: 40px; */
+    /* padding: 15px 0; */
+    top: 100px;
     /* box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); */
-    position: relative;
+    position: fixed;
 }
 
 #header.header-scrolled {

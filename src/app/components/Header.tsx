@@ -24,17 +24,6 @@ export default function Header() {
       id='header'
       className={`fixed-top d-flex flex-column ${scroll > 100 ? 'header-scrolled' : undefined}`}
     >
-      <div className='container-fluid container-xl d-flex justify-content-around'>
-        <div className='logo'>
-          <img src="assets/images/logo.png" height={100} alt="ams logo" />
-        </div>
-        <div className='logo'>
-          <img src="assets/images/logo2.png" height={100} alt="ams logo" />
-        </div>
-        <div className='logo'>
-          <img src="assets/images/bapu.png" height={100} alt="ams logo" />
-        </div>
-      </div>
       <div className='container-fluid navbar'>
         <div className='container-xl'>
           <Nav />
