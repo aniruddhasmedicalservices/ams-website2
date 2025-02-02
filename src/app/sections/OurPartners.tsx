@@ -14,7 +14,7 @@ export default function OurPartners() {
                 <div className="row slider">
                     <div className="slide-track">
                         {ourPartnersImages.map((item) => (
-                            <div className="slide">
+                            <div key={item.id} className="slide">
                                 <img src={item.imageUrl} height="100" alt="" />
                             </div>
                         ))}
