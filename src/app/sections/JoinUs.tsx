@@ -3,33 +3,33 @@
 import React, {useState} from 'react'
 import './joinus.css'
 
-const initValues = {
-  name: '',
-  phone: '',
-  services:'',
-  location: '',
-  pincode: '',
-};
+// const initValues = {
+//   name: '',
+//   phone: '',
+//   services:'',
+//   location: '',
+//   pincode: '',
+// };
 
-const initState = { values: initValues };
+// const initState = { values: initValues };
 
 export default function JoinUs() {
 
-    const [state, setState] = useState(initState);
+    // const [state, setState] = useState(initState);
 
-    const { values } = state;
+    // const { values } = state;
 
-    const handleChange = ({target}: React.ChangeEvent<HTMLInputElement>) => 
-      setState((prev) => ({
-        ...prev, values: {
-          ...prev.values, 
-          [target.name]: target.value,
-        }}));
+    // const handleChange = ({target}: React.ChangeEvent<HTMLInputElement>) => 
+    //   setState((prev) => ({
+    //     ...prev, values: {
+    //       ...prev.values, 
+    //       [target.name]: target.value,
+    //     }}));
 
   return (
-    <section className='container'>
+    <section className='pb-0 container'>
       <form>
-          <div className='joinusForm mt-0'>
+          <div className='joinusForm'>
             <div className="row d-flex justify-content-center">
               <div>
                 <h2 className=''><a href="">Book our services & Join with us</a></h2>

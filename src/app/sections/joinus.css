@@ -3,12 +3,13 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  border: 1px solid #f0f0f0;
-  background-color: #132c5d;
+  border-radius: 10px;
+  border: 0 1px 10px solid #132c5d;
+  background-color: #047c44;
   margin: 0;
 }
 
 .joinusForm h2 a {
 
-  color: white;
+  color: #fff;
 }
