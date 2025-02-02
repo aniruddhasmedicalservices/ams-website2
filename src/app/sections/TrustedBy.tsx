@@ -5,13 +5,13 @@ import TrustedBy from '../components/OurServicesCard'
 const BASE_URL = process.env.BASE_URL || '';
 
 async function getOurServices() {
-  const response = await fetch(`${BASE_URL}/pages/api/ourservices`)
-  const services = await response.json()
-  return services
-}
+//   const response = await fetch(`${BASE_URL}/pages/api/ourservices`)
+//   const services = await response.json()
+//   return services
+// }
 
-export default async function OurServices() {
-  const items : [] = await getOurServices();
+// export default async function OurServices() {
+//   const items : [] = await getOurServices();
 
   return (
     <section id='our-services' className='our-services'>
