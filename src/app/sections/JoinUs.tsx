@@ -2,6 +2,7 @@
 
 import React, {useState} from 'react'
 import './joinus.css'
+import { joinUsLink } from '../data/data';
 
 // const initValues = {
 //   name: '',
@@ -14,6 +15,8 @@ import './joinus.css'
 // const initState = { values: initValues };
 
 export default function JoinUs() {
+
+  const [joinUs, setJoinUs] = useState(joinUsLink);
 
     // const [state, setState] = useState(initState);
 
@@ -32,7 +35,7 @@ export default function JoinUs() {
           <div className='joinusForm'>
             <div className="row d-flex justify-content-center">
               <div>
-                <h2 className=''><a href="">Book our services & Join with us</a></h2>
+                <h2 className=''><a href={joinUs}>Book our services & Join with us</a></h2>
               </div>  
               {/* <div className="col">
                 <input type="text" name='name' className="form-control" placeholder="Full Name" value={initValues.name} onChange={handleChange} />

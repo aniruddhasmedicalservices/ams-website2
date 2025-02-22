@@ -13,12 +13,7 @@ import "./globals.css";
 //Custom components
 import TopBar from "./components/TopBar";
 import Header from "./components/Header";
-import Hero from "./sections/Hero";
 import Footer from "./sections/Footer";
-import ServiceCarousel from "./sections/ServicesCarousel";
-import JoinUs from "./sections/JoinUs";
-// import TrustedBy from "./sections/TrustedBy";
-import OurPartners from "./sections/OurPartners"; 
 
 const roboto = Roboto({
   subsets: ["latin"],

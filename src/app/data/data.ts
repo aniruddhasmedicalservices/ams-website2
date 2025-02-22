@@ -1,25 +1,245 @@
-import { title } from "process";
-
-export const blog = [
+export const navs = [
   {
     id: 1,
-    title: 'Lorem Ipsum',
-    content: `Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et
-        consectetur ducimus vero placeat`,
+    name: 'Home',
+    target: '/',
+    active: true,
   },
   {
     id: 2,
-    title: 'Repellat Nihil',
-    content: `Dolorem est fugiat occaecati voluptate velit esse. Dicta
-    veritatis dolor quod et vel dire leno para dest`,
+    name: 'About us',
+    target: '/about-us',
+    active: false,
   },
   {
     id: 3,
-    title: 'Ad ad velit qui',
-    content: `Molestiae officiis omnis illo asperiores. Aut doloribus vitae
-    sunt debitis quo vel nam quis`,
+    name: 'Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 4,
+    name: 'Careers',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 5,
+    name: 'Blog',
+    target: '/blog',
+    active: false,
   },
 ];
+
+export const navServices = [
+  {
+    id: 1,
+    name: 'Occupational Health Center',
+    target: '/occupational-health-center',
+    active: false,
+  },
+  {
+    id: 2,
+    name: 'School Wellness Program',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 3,
+    name: 'Ambulance Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 4,
+    name: 'Medical Staffing Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 5,
+    name: 'Home Care Nursing Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 6,
+    name: 'Medical Equipments',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 7,
+    name: 'Yoga and Wellness Program',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 8,
+    name: 'Crech services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 9,
+    name: 'Vaccination Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 10,
+    name: 'First aid and CPR Training Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 11,
+    name: 'Additional Nursing Services',
+    target: '#',
+    active: false,
+  },
+]
+
+export const carouselphotos = [
+  {
+    "id": 1,
+    "title": "Service 1",
+    "imageUrl": "assets/images/homepage/carousel/01.png",
+  },
+  {
+    "id": 2,
+    "title": "Service 2",
+    "imageUrl": "assets/images/homepage/carousel/02.png",
+  },
+  {
+    "id": 3,
+    "title": "Service 3",
+    "imageUrl": "assets/images/homepage/carousel/03.png",
+  },
+  {
+    "id": 4,
+    "title": "Service 4",
+    "imageUrl": "assets/images/homepage/carousel/04.png",
+  },
+  {
+    "id": 5,
+    "title": "Service 5",
+    "imageUrl": "assets/images/homepage/carousel/05.png",
+  },
+  {
+    "id": 6,
+    "title": "Service 6",
+    "imageUrl": "assets/images/homepage/carousel/06.png",
+  },
+  {
+    "id": 7,
+    "title": "Service 7",
+    "imageUrl": "assets/images/homepage/carousel/07.png",
+  },
+  {
+    "id": 8,
+    "title": "Service 8",
+    "imageUrl": "assets/images/homepage/carousel/08.png",
+  },
+  {
+    "id": 9,
+    "title": "Service 9",
+    "imageUrl": "assets/images/homepage/carousel/09.png",
+  },
+  {
+    "id": 10,
+    "title": "Service 10",
+    "imageUrl": "assets/images/homepage/carousel/10.png",
+  },
+  {
+    "id": 11,
+    "title": "Service 11",
+    "imageUrl": "assets/images/homepage/carousel/11.png",
+  },
+];
+
+export const ourPartnersImages = [
+  {
+    "id": 1,
+    "imageUrl": "assets/images/ourPartners/p1.png",
+  },
+  {
+    "id": 2,
+    "imageUrl": "assets/images/ourPartners/p2.png",
+  },
+  {
+    "id": 3,
+    "imageUrl": "assets/images/ourPartners/p3.png",
+  },
+  {
+    "id": 4,
+    "imageUrl": "assets/images/ourPartners/p4.png",
+  },
+  {
+    "id": 5,
+    "imageUrl": "assets/images/ourPartners/p5.png",
+  },
+  {
+    "id": 6,
+    "imageUrl": "assets/images/ourPartners/p6.png",
+  },
+  {
+    "id": 7,
+    "imageUrl": "assets/images/ourPartners/p7.png",
+  },
+  {
+    "id": 8,
+    "imageUrl": "assets/images/ourPartners/p8.png",
+  },
+  {
+    "id": 9,
+    "imageUrl": "assets/images/ourPartners/p9.png",
+  },
+  {
+    "id": 10,
+    "imageUrl": "assets/images/ourPartners/p10.png",
+  },
+  {
+    "id": 11,
+    "imageUrl": "assets/images/ourPartners/p11.png",
+  },
+  {
+    "id": 12,
+    "imageUrl": "assets/images/ourPartners/p1.png",
+  },
+  {
+    "id": 13,
+    "imageUrl": "assets/images/ourPartners/p2.png",
+  },
+  {
+    "id": 14,
+    "imageUrl": "assets/images/ourPartners/p3.png",
+  },
+];
+
+export const joinUsLink = "#";
+
+
+// export const blog = [
+//   {
+//     id: 1,
+//     title: 'Lorem Ipsum',
+//     content: `Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et
+//         consectetur ducimus vero placeat`,
+//   },
+//   {
+//     id: 2,
+//     title: 'Repellat Nihil',
+//     content: `Dolorem est fugiat occaecati voluptate velit esse. Dicta
+//     veritatis dolor quod et vel dire leno para dest`,
+//   },
+//   {
+//     id: 3,
+//     title: 'Ad ad velit qui',
+//     content: `Molestiae officiis omnis illo asperiores. Aut doloribus vitae
+//     sunt debitis quo vel nam quis`,
+//   },
+// ];
 
 // export const events = [
 //   {
@@ -146,245 +366,3 @@ export const blog = [
 //     image: '/assets/images/gallery/gallery-8.jpg',
 //   },
 // ];
-
-export const navs = [
-  {
-    id: 1,
-    name: 'Home',
-    target: '/',
-    active: true,
-  },
-  {
-    id: 2,
-    name: 'About us',
-    target: '/about-us',
-    active: false,
-  },
-  {
-    id: 3,
-    name: 'Services',
-    target: '#',
-    active: false,
-  },
-  {
-    id: 4,
-    name: 'Careers',
-    target: '#',
-    active: false,
-  },
-  {
-    id: 5,
-    name: 'Blog',
-    target: '/blog',
-    active: false,
-  },
-];
-
-export const navServices = [
-  {
-    id: 1,
-    name: 'Occupational Health Center',
-    target: '/occupational-health-center',
-    active: false,
-  },
-  {
-    id: 2,
-    name: 'School Wellness Program',
-    target: '/school-wellness-program',
-    active: false,
-  },
-  {
-    id: 3,
-    name: 'Ambulance Services',
-    target: '#',
-    active: false,
-  },
-  {
-    id: 4,
-    name: 'Medical Staffing Services',
-    target: '#',
-    active: false,
-  },
-  {
-    id: 5,
-    name: 'Home Care Nursing Services',
-    target: '#',
-    active: false,
-  },
-  {
-    id: 6,
-    name: 'Medical Equipments',
-    target: '#',
-    active: false,
-  },
-  {
-    id: 7,
-    name: 'Yoga and Wellness Program',
-    target: '#',
-    active: false,
-  },
-  {
-    id: 8,
-    name: 'Crech services',
-    target: '#',
-    active: false,
-  },
-  {
-    id: 9,
-    name: 'Vaccination Services',
-    target: '#',
-    active: false,
-  },
-  {
-    id: 10,
-    name: 'First aid and CPR Training Services',
-    target: '#',
-    active: false,
-  },
-  {
-    id: 11,
-    name: 'Additional Nursing Services',
-    target: '#',
-    active: false,
-  },
-]
-
-export const ourservices = [
-  {
-    id: 1,
-    title: 'Web Development',
-    content: 'This is a company that builds websites, web apps and e-commerce solutions.',
-  },
-  {
-    id: 2,
-    title: 'Application Development',
-    content: 'This is a company that builds Application, mobile apps and e-commerce solutions.',
-  },
-  {
-    id: 3,
-    title: 'Data analysis',
-    content: 'This is a company that builds Data models, web apps and e-commerce solutions.',
-  },
-  {
-    id: 4,
-    title: 'Web Development',
-    content: 'This is a company that builds websites, web apps and e-commerce solutions.',
-  },
-];
-
-export const carouselphotos = [
-  {
-    "id": 1,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/01.png",
-  },
-  {
-    "id": 2,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/02.png",
-  },
-  {
-    "id": 3,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/03.png",
-  },
-  {
-    "id": 4,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/04.png",
-  },
-  {
-    "id": 5,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/05.png",
-  },
-  {
-    "id": 6,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/06.png",
-  },
-  {
-    "id": 7,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/07.png",
-  },
-  {
-    "id": 8,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/08.png",
-  },
-  {
-    "id": 9,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/09.png",
-  },
-  {
-    "id": 10,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/10.png",
-  },
-  {
-    "id": 11,
-    "title": "Photography",
-    "imageUrl": "assets/images/homepage/carousel/11.png",
-  },
-];
-
-export const ourPartnersImages = [
-  {
-    "id": 1,
-    "imageUrl": "assets/images/ourPartners/p1.png",
-  },
-  {
-    "id": 2,
-    "imageUrl": "assets/images/ourPartners/p2.png",
-  },
-  {
-    "id": 3,
-    "imageUrl": "assets/images/ourPartners/p3.png",
-  },
-  {
-    "id": 4,
-    "imageUrl": "assets/images/ourPartners/p4.png",
-  },
-  {
-    "id": 5,
-    "imageUrl": "assets/images/ourPartners/p5.png",
-  },
-  {
-    "id": 6,
-    "imageUrl": "assets/images/ourPartners/p6.png",
-  },
-  {
-    "id": 7,
-    "imageUrl": "assets/images/ourPartners/p7.png",
-  },
-  {
-    "id": 8,
-    "imageUrl": "assets/images/ourPartners/p8.png",
-  },
-  {
-    "id": 9,
-    "imageUrl": "assets/images/ourPartners/p9.png",
-  },
-  {
-    "id": 10,
-    "imageUrl": "assets/images/ourPartners/p10.png",
-  },
-  {
-    "id": 11,
-    "imageUrl": "assets/images/ourPartners/p11.png",
-  },
-  {
-    "id": 12,
-    "imageUrl": "assets/images/ourPartners/p1.png",
-  },
-  {
-    "id": 13,
-    "imageUrl": "assets/images/ourPartners/p2.png",
-  },
-  {
-    "id": 14,
-    "imageUrl": "assets/images/ourPartners/p3.png",
-  },
-];
