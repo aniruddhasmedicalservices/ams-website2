@@ -12,12 +12,11 @@ import OurPartners from "./sections/OurPartners";
 export default function Home() {
   return (
     <>
-    <Hero />
     <main id="main">
+      <Hero />
       <ServiceCarousel />
       <JoinUs />
       <OurPartners />
-      <Footer />
     </main>
     </>
   );

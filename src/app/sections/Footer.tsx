@@ -13,7 +13,8 @@ export default function Footer() {
     }, []);
 
   return (
-    <footer id="footer" className="text-center text-lg-start bg-body-tertiary text-muted">
+    <footer id="footer" className="page-footer text-center text-lg-start bg-body-tertiary text-muted"
+    style={{ position: "relative", bottom: 0, width: "100%" }} >
       {/* <section className="">
         <div className="container text-center text-md-start mt-5">
           <div className="row mt-3">

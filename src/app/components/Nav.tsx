@@ -22,13 +22,13 @@ export default function Nav() {
         setOpen(!open);
     };
 
-    const handleScrollTo = (section: string) => {
+    // const handleScrollTo = (section: string) => {
         
-        const sectionElement = document.getElementById(section);
-        if (sectionElement) {
-            sectionElement.scrollIntoView({ behavior: 'smooth' });
-        }
-    }
+    //     const sectionElement = document.getElementById(section);
+    //     if (sectionElement) {
+    //         sectionElement.scrollIntoView({ behavior: 'smooth' });
+    //     }
+    // }
 
     const handleActive = (section: string) => {}
     
@@ -42,7 +42,7 @@ export default function Nav() {
                 <li key={nav.id}>
                     <a
                     className={`nav-link scrollto ${nav.active ? 'active' : undefined}`}
-                    onClick={() => handleScrollTo(nav.target)}>
+                    onClick={() => window.open(nav.target, '_self') && handleActive(nav.name)}>
                         {nav.name === 'Home' ? (<i className="bi bi-house-door-fill"></i>) : (nav.name)}
                     </a>
                 </li>
