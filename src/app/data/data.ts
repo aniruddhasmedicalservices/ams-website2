@@ -98,6 +98,12 @@ export const navServices = [
     target: '#',
     active: false,
   },
+  {
+    id: 12,
+    name: 'New Services',
+    target: '#',
+    active: false,
+  },
 ]
 
 export const carouselphotos = [
