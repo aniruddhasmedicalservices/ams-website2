@@ -180,21 +180,74 @@ export const navs = [
   },
 ];
 
-export const bookings = [
+export const navServices = [
   {
     id: 1,
-    details: {
-      name: 'Example Name',
-      email: 'info@example.com',
-      phone: '12345678',
-      date: '2024-2-06',
-      time: '11:30',
-      people: 3,
-      message: `Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur`,
-    },
+    name: 'Occupational Health Center',
+    target: '/occupational-health-center',
+    active: false,
   },
-];
+  {
+    id: 2,
+    name: 'School Wellness Program',
+    target: '/school-wellness-program',
+    active: false,
+  },
+  {
+    id: 3,
+    name: 'Ambulance Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 4,
+    name: 'Medical Staffing Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 5,
+    name: 'Home Care Nursing Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 6,
+    name: 'Medical Equipments',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 7,
+    name: 'Yoga and Wellness Program',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 8,
+    name: 'Crech services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 9,
+    name: 'Vaccination Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 10,
+    name: 'First aid and CPR Training Services',
+    target: '#',
+    active: false,
+  },
+  {
+    id: 11,
+    name: 'Additional Nursing Services',
+    target: '#',
+    active: false,
+  },
+]
 
 export const ourservices = [
   {

@@ -1,15 +1,14 @@
-/* about.css */
+/* occupationalHealthCenter.css */
 
-.about {
+.occupationalHealthCenter {
+    margin-top: 200px;
     padding: 20px;
     background-size: cover;
     position: relative;
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
 }
 
-.about::before {
+.occupationalHealthCenter::before {
     content: "";
     /* background: rgba(255, 255, 255, 0.5); */
     position: absolute;
@@ -22,20 +21,20 @@
     z-index: -1; */
 }
 
-.about .about-image {
+.occupationalHealthCenter .occupationalHealthCenter-image {
     position: relative;
     transition: 0.5s;
     /* margin-bottom: 20px; */
 }
 
-.about .about-image img {
+.occupationalHealthCenter .occupationalHealthCenter-image img {
     max-width: 100%;
     height: auto;
     border: 4px solid #000;
     position: relative;
 }
 
-.about .about-image::before {
+.occupationalHealthCenter .occupationalHealthCenter-image::before {
     position: absolute;
     left: 20px;
     top: 20px;
@@ -49,48 +48,48 @@
     transition: 0.5s;
 }
 
-.about .about-image:hover {
+.occupationalHealthCenter .occupationalHealthCenter-image:hover {
     transform: scale(1.1);
 }
 
-.about .content {
+.occupationalHealthCenter .content {
     position: relative;
     z-index: 1;
 }
 
-.about .content h3 {
+.occupationalHealthCenter .content h3 {
     font-weight: 600;
     font-size: 26px;
 }
 
-.about .content ul {
+.occupationalHealthCenter .content ul {
     list-style: none;
     padding: 0;
 }
 
-.about .content ul li {
+.occupationalHealthCenter .content ul li {
     font-size: 20px;
     padding-right: 4px;
     color: #007bff;
 }
 
-.about h1 {
+.occupationalHealthCenter h1 {
     font-size: 2em;
     color: #333;
     margin-bottom: 10px;
 }
 
-.about p {
+.occupationalHealthCenter p {
     font-size: 1em;
     color: #666;
     line-height: 1.5;
 }
 
-.about a {
+.occupationalHealthCenter a {
     color: #007bff;
     text-decoration: none;
 }
 
-.about a:hover {
+.occupationalHealthCenter a:hover {
     text-decoration: underline;
 }
